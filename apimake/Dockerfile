@@ -30,7 +30,7 @@ FROM pytorch/pytorch:1.13.0-cuda11.6-cudnn8-runtime
 ADD api/main.py .
 ADD api/pretrainedBiLSTM.py .
 ADD api/pretrainedmpnet.py .
-ADD api/.data/ .
+#ADD api/.data/ .
 
 #ADD api/.vector_cache/ .
 #add the pretrained models

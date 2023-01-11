@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 import time
 whoexecutes = "docker"
-path= '' if whoexecutes=="docker" else '/home/nico/Documents/IAssistant/my2/'
+path= '' if whoexecutes=="docker" else '../models/'
 a=time.time()
 
 import pretrainedBiLSTM
@@ -29,11 +29,14 @@ async def helloworld(hypprem: str,): #mod:str,
 async def modular(hypprem: str,mod:str): #mod:str,
     hyp,prem=list(filter(lambda item: item.__len__()>0, hypprem.split(".")))
     if(mod=="bilstm"):
+        a=time.time()
+
         pretrainedBiLSTM.load(path)
         print(f"done loading model after {time.time()-a} seconds, ready for inference")
 
         return pretrainedBiLSTM.out(hyp,prem)
     elif(mod=="mpnet"):
+        a=time.time()
         mp=mpnet(path)
         print(f"done loading model after {time.time()-a} seconds, ready for inference")
 

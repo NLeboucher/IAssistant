@@ -23,3 +23,7 @@ the BiLSTM from and mpnet based on https://huggingface.co/microsoft/mpnet-base.
 Here for each model we train and save the models to be used in the pretraining phases
 ## 2 - The pretraining
 Here we need to load the models before being able to 
+## 3 - The API
+Here we use the models to make predictions 
+
+There is a dockerfile to build the image from these predictions

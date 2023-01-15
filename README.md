@@ -27,3 +27,10 @@ Here we need to load the models before being able to
 Here we use the models to make predictions 
 
 There is a dockerfile to build the image from these predictions
+To prepare the docker image, run the following command from the root of the repository:
+    
+    ```bash
+    make build
+    make run
+    "insert your docker container name here"
+    ```

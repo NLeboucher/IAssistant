@@ -30,17 +30,19 @@ FROM pytorch/pytorch:1.13.0-cuda11.6-cudnn8-runtime
 ADD api/main.py .
 ADD api/pretrainedBiLSTM.py .
 ADD api/pretrainedmpnet.py .
+
 #ADD api/.data/ .
 
 #ADD api/.vector_cache/ .
 #add the pretrained models
-ADD tut1-model.pt .
-ADD mpnet-base-snli-mnli-finetuned-mnli .
+ADD tut1-model.pt models/
+ADD mpnet-base-snli-mnli models/mpnet-base-snli-mnli/
 
 #add requirements
 ADD requirements.txt .
 RUN pip install -r requirements.txt
 RUN python3 -m spacy download en_core_web_sm
-
 #add the api
 CMD uvicorn main:app --host 0.0.0.0 --port 8000
+
+RUN echo $(ls -1 models/)

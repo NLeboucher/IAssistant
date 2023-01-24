@@ -30,7 +30,6 @@ async def modular(hypprem: str,mod:str): #mod:str,
 
         pretrainedBiLSTM.load(path)
         print(f"done loading bilstm after {time.time()-a} seconds, ready for inference")
-
         return pretrainedBiLSTM.out(hyp,prem)
     elif(mod=="mpnet"):
         print("Testing mpnet")

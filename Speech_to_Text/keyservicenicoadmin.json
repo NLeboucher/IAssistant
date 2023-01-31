@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "psyched-bee-375722",
+  "private_key_id": "bce49038dfa292c022082ce27d7c0d6b0f1d9ca3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCA7u82dd6G05Ow\nU0AVmao1/xkNrMt9UZuyKHFm31WufpgjSoE0FjG7Wbv2cmStNzzyatDNp5PdDdIM\nSOy9l4Eo+HMSwuSlr/qQ4jditVb8FgpWv0KxpSa+MgpGkts+4wqMqDsDvBlqDFiO\nBVhUobBG7oO7c95TLY333nHBCHL/eJkQgeVF/7sc0FWmEtpCLETgabENkbimdMpA\nmtp105gBeVPt6jvY0Pffkjo3rndBqpI3RJfIGxk8xsX4OPQhPaIjcGht1L4zaDPs\nQqTCbXt3stizmaUSJ7uFD7jOUPuvmTzEo/Xq2q5JhqOkc4QBaWrYS/nX70JzbmYZ\na18H4JbbAgMBAAECggEAJ2OXbf5dcLgzfuM4CUFMODnKOBzJf+wOEkP7vQ9OuEPR\ni7qHtVdwcwmLfFNfQXHGK1MJnkJrUFWYDYu704H1AgTA9wLWYm3cMSYDAKNgwxui\npfTBVc8cAm/8JqpX06L+BpGgkdgFtZm29hBY92X8GfdlBD/2NFgO7qIlA3Fm3HfW\n3WDYiNpjY7HMfVY4wi2s2I+Vd6JTQxPqCgvOCrFCh60LcStSKXWDceE355ZuDTnN\nSrMDhRDPKeZlQMeeRH+oTxJj2jx5m/NdGDgyWP2HsxhYiGNMZrRZyvVi7wemnQ8x\nybD86I879AuEjHUkvaGN968d3XvujUAXSYNeKklIrQKBgQC2G9nqNLkX8MjvpsPj\n2ZOR9RmzzC18GdE1n4vNNgXt6K9GkWrXoPJBwr7EheBfaEZuBQK2usyyiEzELeFo\na4WPK5k5TnohhysMqGzO/Jjh2RVeBe/BYICDExm44opvcewys2LPMYKo+3mLvArX\n4YVf1LZKY8y8o5/kGmF1+Cu97QKBgQC1P5mhGC52PXKgxIBzVOGELQ9uXcKwniqs\nGUvcr+Plmtmf1N7WLbWD6kYCFxFirB+RiBTHeNjkf/gVep8PBExE7W+3+oGUgNr/\nxgi0TWeZ6X2qVg3rQ20TNSdS9LzXWeDjuQ7KlEmVunw/3yFHHBIAgCqgG94XF95A\n61VG1XJO5wKBgHtojFhGulga+FBPdthljbePnYdWikxbQodQQ3Ehdwsub/kmenz9\nuK4Pxy9uegqto2zTQG+MT0N9Umhvnx0gIDZRmVhYcjNeYjIFwRbT3tbOQcihxUQK\nnYw12WyNOLslPKdvITq/loflQw0KtV5ume/DOnVXBFuhlq0Bo6JKN3pRAoGBAKTI\nOOVkNcGcJh4R6PJyBkIEMZZWug2XDxa+POFcLGbwPND6WMoCbpeLI7D8xfqeoGjQ\nfovHy/EagzML85ZUgv7bm4l5v9uCtxh5NCqwgPNGe9CkQi1VdNJUrfbWuOVVOofv\nFIqK/Mea7yGmu/uJgrhfzeEY1PbL5W3CRxqKLk2bAoGBAJUUqnBnbpKDX/5NjByg\nM/6bz2QClDLHlHckXL8JRDlKx0TAMCsCxQukb3gHJ5JtyOT+F/q+LjhNVJWCDkgi\n8DS/oYuRvP/8DAB7YDwAx/kpaSFsZtmtf1kJcNxQCeMdA29EZbwb7M2lyUaGPzRt\nkwqIizl/JMa6QXDEjnMu4CJJ\n-----END PRIVATE KEY-----\n",
+  "client_email": "servicenicoadmin@psyched-bee-375722.iam.gserviceaccount.com",
+  "client_id": "100731884539009920014",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/servicenicoadmin%40psyched-bee-375722.iam.gserviceaccount.com"
+}

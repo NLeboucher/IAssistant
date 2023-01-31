@@ -2,7 +2,7 @@
 An assistant for the doppelmarsh DVIC Project
 
 There are 3 parts to this repo. Each are adapted from two models
-the BiLSTM from and mpnet based on https://huggingface.co/microsoft/mpnet-base.
+There is a BiLSTM and the mpnet is based on https://huggingface.co/microsoft/mpnet-base.
 
 ## 1 - The training
 

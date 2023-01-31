@@ -49,7 +49,10 @@ try:
             config=config,
             audio=audio_data,
         )
-        print(f"Transcription: {response.results[0].alternatives[0].transcript}")
+        try:
+            print(f"Transcription: {response.results[0].alternatives[0].transcript}")
+        except IndexError:
+            print("\"silence\"")
 except KeyboardInterrupt:
     pass
 stream.stop_stream()

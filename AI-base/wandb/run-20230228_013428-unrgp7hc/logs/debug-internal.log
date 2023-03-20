@@ -1,0 +1,243 @@
+2023-02-28 01:34:28,116 INFO    StreamThr :17371 [internal.py:wandb_internal():87] W&B internal server running at pid: 17371, started at: 2023-02-28 01:34:28.116284
+2023-02-28 01:34:28,117 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status
+2023-02-28 01:34:28,126 INFO    WriterThread:17371 [datastore.py:open_for_write():85] open: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/run-unrgp7hc.wandb
+2023-02-28 01:34:28,126 DEBUG   SenderThread:17371 [sender.py:send():336] send: header
+2023-02-28 01:34:28,133 DEBUG   SenderThread:17371 [sender.py:send():336] send: run
+2023-02-28 01:34:29,003 INFO    SenderThread:17371 [dir_watcher.py:__init__():216] watching files in: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files
+2023-02-28 01:34:29,003 INFO    SenderThread:17371 [sender.py:_start_run_threads():1067] run started: unrgp7hc with start time 1677544468.120964
+2023-02-28 01:34:29,003 DEBUG   SenderThread:17371 [sender.py:send_request():363] send_request: summary_record
+2023-02-28 01:34:29,003 INFO    SenderThread:17371 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-28 01:34:29,006 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: check_version
+2023-02-28 01:34:29,006 DEBUG   SenderThread:17371 [sender.py:send_request():363] send_request: check_version
+2023-02-28 01:34:29,399 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: run_start
+2023-02-28 01:34:29,409 DEBUG   HandlerThread:17371 [system_info.py:__init__():31] System info init
+2023-02-28 01:34:29,409 DEBUG   HandlerThread:17371 [system_info.py:__init__():46] System info init done
+2023-02-28 01:34:29,409 INFO    HandlerThread:17371 [system_monitor.py:start():151] Starting system monitor
+2023-02-28 01:34:29,409 INFO    SystemMonitor:17371 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-28 01:34:29,409 INFO    HandlerThread:17371 [system_monitor.py:probe():172] Collecting system info
+2023-02-28 01:34:29,410 INFO    SystemMonitor:17371 [interfaces.py:start():168] Started cpu
+2023-02-28 01:34:29,410 INFO    SystemMonitor:17371 [interfaces.py:start():168] Started disk
+2023-02-28 01:34:29,411 INFO    SystemMonitor:17371 [interfaces.py:start():168] Started gpu
+2023-02-28 01:34:29,411 INFO    SystemMonitor:17371 [interfaces.py:start():168] Started memory
+2023-02-28 01:34:29,411 INFO    SystemMonitor:17371 [interfaces.py:start():168] Started network
+2023-02-28 01:34:29,476 DEBUG   HandlerThread:17371 [system_info.py:probe():195] Probing system
+2023-02-28 01:34:29,479 DEBUG   HandlerThread:17371 [system_info.py:_probe_git():180] Probing git
+2023-02-28 01:34:29,486 DEBUG   HandlerThread:17371 [system_info.py:_probe_git():188] Probing git done
+2023-02-28 01:34:29,486 DEBUG   HandlerThread:17371 [system_info.py:probe():241] Probing system done
+2023-02-28 01:34:29,486 DEBUG   HandlerThread:17371 [system_monitor.py:probe():181] {'os': 'Linux-5.15.0-58-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-02-28T00:34:29.477060', 'startedAt': '2023-02-28T00:34:28.110666', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'IAssistant/AI-base/trainingagainmicrosoft-jvsc-dc2e1fbe-17f2-46e8-af1f-28b4f5f527e1bfcc064f-cd76-4843-8bbd-406663b48e09.ipynb', 'root': '/home/nico/Documents/IAS2/IAssistant', 'git': {'remote': 'git@github.com:NLeboucher/IAssistant.git', 'commit': 'fd6f086f759ee2c7d61c316038bbab1a3497a9b5'}, 'email': 'nicolas.leboucher01@gmail.com', 'host': 'nicoub', 'username': 'nico', 'executable': '/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 1.9153124999999998, 'min': 1400.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 2.471, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}], 'disk': {'total': 276.1340675354004, 'used': 208.67363357543945}, 'gpu': 'NVIDIA GeForce RTX 2060 with Max-Q Design', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060 with Max-Q Design', 'memory_total': 6442450944}], 'memory': {'total': 15.050827026367188}}
+2023-02-28 01:34:29,486 INFO    HandlerThread:17371 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-28 01:34:29,486 INFO    HandlerThread:17371 [system_monitor.py:probe():185] Publishing system info
+2023-02-28 01:34:29,486 DEBUG   HandlerThread:17371 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-28 01:34:29,487 DEBUG   HandlerThread:17371 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-28 01:34:29,487 INFO    HandlerThread:17371 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-28 01:34:29,490 DEBUG   SenderThread:17371 [sender.py:send():336] send: files
+2023-02-28 01:34:29,490 INFO    SenderThread:17371 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-28 01:34:29,504 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-28 01:34:29,505 DEBUG   SenderThread:17371 [sender.py:send_request():363] send_request: stop_status
+2023-02-28 01:34:29,913 DEBUG   SenderThread:17371 [sender.py:send():336] send: telemetry
+2023-02-28 01:34:29,913 DEBUG   SenderThread:17371 [sender.py:send():336] send: config
+2023-02-28 01:34:29,914 DEBUG   SenderThread:17371 [sender.py:send():336] send: metric
+2023-02-28 01:34:29,914 DEBUG   SenderThread:17371 [sender.py:send():336] send: telemetry
+2023-02-28 01:34:29,914 DEBUG   SenderThread:17371 [sender.py:send():336] send: metric
+2023-02-28 01:34:29,914 WARNING SenderThread:17371 [sender.py:send_metric():1272] Seen metric with glob (shouldn't happen)
+2023-02-28 01:34:30,005 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/output.log
+2023-02-28 01:34:30,005 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/wandb-summary.json
+2023-02-28 01:34:30,006 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/requirements.txt
+2023-02-28 01:34:30,006 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/wandb-metadata.json
+2023-02-28 01:34:30,379 INFO    wandb-upload_0:17371 [upload_job.py:push():138] Uploaded file /tmp/tmpvzrcctbnwandb/xmhqo003-wandb-metadata.json
+2023-02-28 01:34:32,004 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/output.log
+2023-02-28 01:34:33,919 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:34:38,920 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:34:43,921 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:34:44,504 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:34:44,504 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:34:48,922 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:34:49,505 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:34:53,922 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:34:54,506 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:34:58,928 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:34:59,508 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:35:00,014 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/config.yaml
+2023-02-28 01:35:04,509 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:35:04,557 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:35:09,510 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:35:09,558 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:35:14,511 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:35:14,558 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:35:19,513 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:35:19,559 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:35:24,513 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:35:24,560 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:35:29,411 DEBUG   SystemMonitor:17371 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-28 01:35:29,413 DEBUG   SenderThread:17371 [sender.py:send():336] send: stats
+2023-02-28 01:35:29,514 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:35:30,413 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:35:34,516 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:35:35,414 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:35:39,517 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:35:40,415 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:35:44,518 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:35:45,416 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:35:49,519 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:35:50,417 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:35:54,520 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:35:55,417 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:35:59,413 DEBUG   SenderThread:17371 [sender.py:send():336] send: stats
+2023-02-28 01:35:59,521 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:36:01,414 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:36:04,521 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:36:06,416 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:36:09,528 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:36:11,417 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:36:14,530 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:36:16,417 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:36:19,531 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:36:21,418 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:36:24,532 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:36:26,419 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:36:29,414 DEBUG   SenderThread:17371 [sender.py:send():336] send: stats
+2023-02-28 01:36:29,533 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:36:31,888 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-28 01:36:31,890 DEBUG   SenderThread:17371 [sender.py:send():336] send: metric
+2023-02-28 01:36:31,896 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:36:32,529 DEBUG   SenderThread:17371 [sender.py:send():336] send: metric
+2023-02-28 01:36:32,529 DEBUG   SenderThread:17371 [sender.py:send():336] send: metric
+2023-02-28 01:36:32,529 DEBUG   SenderThread:17371 [sender.py:send():336] send: history
+2023-02-28 01:36:32,529 DEBUG   SenderThread:17371 [sender.py:send_request():363] send_request: summary_record
+2023-02-28 01:36:32,529 INFO    SenderThread:17371 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-28 01:36:33,050 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/wandb-summary.json
+2023-02-28 01:36:33,050 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/config.yaml
+2023-02-28 01:36:34,533 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:36:35,050 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/output.log
+2023-02-28 01:36:37,531 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:36:39,534 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:36:42,532 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:36:44,535 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:36:47,532 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:36:49,537 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:36:52,533 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:36:54,545 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:36:57,534 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:36:59,415 DEBUG   SenderThread:17371 [sender.py:send():336] send: stats
+2023-02-28 01:36:59,547 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:37:03,420 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:37:04,060 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/config.yaml
+2023-02-28 01:37:04,548 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:37:08,910 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:37:09,551 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:37:13,911 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:37:14,553 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:37:18,912 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:37:19,553 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:37:23,913 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:37:24,554 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:37:28,914 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:37:29,416 DEBUG   SenderThread:17371 [sender.py:send():336] send: stats
+2023-02-28 01:37:29,558 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:37:34,417 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:37:34,560 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:37:39,417 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:37:39,561 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:37:44,418 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:37:44,562 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:37:49,420 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:37:49,563 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:37:54,421 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:37:54,564 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:37:59,416 DEBUG   SenderThread:17371 [sender.py:send():336] send: stats
+2023-02-28 01:37:59,565 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:38:00,417 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:38:04,566 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:38:05,418 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:38:09,567 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:38:10,419 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:38:14,568 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:38:15,420 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:38:19,569 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:38:20,421 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:38:24,570 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:38:25,422 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:38:29,417 DEBUG   SenderThread:17371 [sender.py:send():336] send: stats
+2023-02-28 01:38:29,571 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:38:31,419 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:38:33,770 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-28 01:38:33,771 DEBUG   SenderThread:17371 [sender.py:send():336] send: history
+2023-02-28 01:38:33,771 DEBUG   SenderThread:17371 [sender.py:send_request():363] send_request: summary_record
+2023-02-28 01:38:33,772 INFO    SenderThread:17371 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-28 01:38:34,095 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/wandb-summary.json
+2023-02-28 01:38:34,572 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:38:35,096 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/output.log
+2023-02-28 01:38:36,773 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:38:39,573 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:38:41,774 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:38:44,574 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:38:46,775 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:38:49,575 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:38:51,776 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:38:54,576 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:38:56,777 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:38:59,418 DEBUG   SenderThread:17371 [sender.py:send():336] send: stats
+2023-02-28 01:38:59,577 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:39:02,419 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:39:04,579 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:39:07,420 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:39:09,580 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:39:12,421 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:39:14,582 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:39:17,422 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:39:19,584 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:39:22,423 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:39:24,585 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:39:27,424 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:39:29,419 DEBUG   SenderThread:17371 [sender.py:send():336] send: stats
+2023-02-28 01:39:29,586 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:39:33,420 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:39:34,587 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:39:38,421 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:39:39,592 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:39:43,421 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:39:44,593 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:39:48,422 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:39:49,594 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:39:53,423 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:39:54,595 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:39:58,424 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:39:59,420 DEBUG   SenderThread:17371 [sender.py:send():336] send: stats
+2023-02-28 01:39:59,596 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:40:04,421 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:40:04,597 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:40:09,422 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:40:09,598 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:40:14,423 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:40:14,599 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:40:19,424 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:40:19,600 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:40:24,425 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:40:24,601 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:40:29,420 DEBUG   SenderThread:17371 [sender.py:send():336] send: stats
+2023-02-28 01:40:29,602 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:40:30,421 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:40:34,604 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:40:35,422 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:40:35,659 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-28 01:40:35,660 DEBUG   SenderThread:17371 [sender.py:send():336] send: history
+2023-02-28 01:40:35,661 DEBUG   SenderThread:17371 [sender.py:send_request():363] send_request: summary_record
+2023-02-28 01:40:35,661 INFO    SenderThread:17371 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-28 01:40:36,143 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/wandb-summary.json
+2023-02-28 01:40:37,143 INFO    Thread-13 :17371 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230228_013428-unrgp7hc/files/output.log
+2023-02-28 01:40:39,605 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:40:40,662 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:40:44,606 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:40:45,663 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:40:49,608 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:40:50,665 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:40:54,608 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:40:55,666 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:40:59,426 DEBUG   SenderThread:17371 [sender.py:send():336] send: stats
+2023-02-28 01:40:59,609 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:41:01,426 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:41:04,609 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:41:06,427 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+2023-02-28 01:41:09,610 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-28 01:41:11,428 DEBUG   HandlerThread:17371 [handler.py:handle_request():144] handle_request: status_report
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

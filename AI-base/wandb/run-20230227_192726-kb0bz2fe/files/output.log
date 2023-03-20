@@ -1,0 +1,192 @@
+
+You're using a MPNetTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'loss': 1.1006, 'learning_rate': 1.4835941063670546e-06, 'epoch': 0.01}
+{'loss': 1.0953, 'learning_rate': 2.9671882127341092e-06, 'epoch': 0.01}
+{'loss': 1.0122, 'learning_rate': 4.450782319101163e-06, 'epoch': 0.02}
+{'loss': 0.806, 'learning_rate': 5.9343764254682184e-06, 'epoch': 0.02}
+{'loss': 0.7045, 'learning_rate': 7.417970531835273e-06, 'epoch': 0.03}
+{'loss': 0.6832, 'learning_rate': 8.901564638202327e-06, 'epoch': 0.03}
+{'loss': 0.6872, 'learning_rate': 1.0385158744569381e-05, 'epoch': 0.04}
+{'loss': 0.6788, 'learning_rate': 1.1868752850936437e-05, 'epoch': 0.04}
+{'loss': 0.6909, 'learning_rate': 1.335234695730349e-05, 'epoch': 0.05}
+{'loss': 0.671, 'learning_rate': 1.4835941063670545e-05, 'epoch': 0.05}
+{'loss': 0.7181, 'learning_rate': 1.63195351700376e-05, 'epoch': 0.06}
+{'loss': 0.6995, 'learning_rate': 1.7803129276404654e-05, 'epoch': 0.06}
+{'loss': 0.7003, 'learning_rate': 1.9286723382771708e-05, 'epoch': 0.07}
+{'loss': 0.7026, 'learning_rate': 2.0770317489138762e-05, 'epoch': 0.07}
+{'loss': 0.6801, 'learning_rate': 2.2253911595505816e-05, 'epoch': 0.08}
+{'loss': 0.7055, 'learning_rate': 2.3737505701872874e-05, 'epoch': 0.08}
+{'loss': 0.7005, 'learning_rate': 2.5221099808239928e-05, 'epoch': 0.09}
+{'loss': 0.7205, 'learning_rate': 2.670469391460698e-05, 'epoch': 0.09}
+{'loss': 0.6938, 'learning_rate': 2.8188288020974036e-05, 'epoch': 0.1}
+{'loss': 0.7114, 'learning_rate': 2.967188212734109e-05, 'epoch': 0.1}
+{'loss': 0.6929, 'learning_rate': 3.1155476233708145e-05, 'epoch': 0.11}
+{'loss': 0.7095, 'learning_rate': 3.26390703400752e-05, 'epoch': 0.11}
+{'loss': 0.7309, 'learning_rate': 3.412266444644225e-05, 'epoch': 0.12}
+{'loss': 0.6937, 'learning_rate': 3.560625855280931e-05, 'epoch': 0.12}
+{'loss': 0.7087, 'learning_rate': 3.708985265917636e-05, 'epoch': 0.13}
+{'loss': 0.7576, 'learning_rate': 3.8573446765543416e-05, 'epoch': 0.13}
+{'loss': 0.7351, 'learning_rate': 4.005704087191047e-05, 'epoch': 0.14}
+{'loss': 0.7242, 'learning_rate': 4.1540634978277524e-05, 'epoch': 0.14}
+{'loss': 0.7246, 'learning_rate': 4.3024229084644585e-05, 'epoch': 0.15}
+{'loss': 0.7394, 'learning_rate': 4.450782319101163e-05, 'epoch': 0.15}
+{'loss': 0.7436, 'learning_rate': 4.599141729737869e-05, 'epoch': 0.16}
+{'loss': 0.7505, 'learning_rate': 4.747501140374575e-05, 'epoch': 0.16}
+{'loss': 0.774, 'learning_rate': 4.8958605510112795e-05, 'epoch': 0.17}
+{'loss': 0.8026, 'learning_rate': 5.0442199616479856e-05, 'epoch': 0.17}
+{'loss': 0.7908, 'learning_rate': 5.192579372284691e-05, 'epoch': 0.18}
+{'loss': 0.8227, 'learning_rate': 5.340938782921396e-05, 'epoch': 0.18}
+{'loss': 0.8261, 'learning_rate': 5.489298193558102e-05, 'epoch': 0.19}
+{'loss': 0.8344, 'learning_rate': 5.637657604194807e-05, 'epoch': 0.19}
+{'loss': 0.8404, 'learning_rate': 5.786017014831513e-05, 'epoch': 0.2}
+{'loss': 0.8433, 'learning_rate': 5.934376425468218e-05, 'epoch': 0.2}
+{'loss': 0.8386, 'learning_rate': 6.0827358361049235e-05, 'epoch': 0.21}
+{'loss': 0.8559, 'learning_rate': 6.231095246741629e-05, 'epoch': 0.21}
+{'loss': 0.8503, 'learning_rate': 6.379454657378335e-05, 'epoch': 0.22}
+{'loss': 0.8677, 'learning_rate': 6.52781406801504e-05, 'epoch': 0.22}
+{'loss': 0.9475, 'learning_rate': 6.676173478651745e-05, 'epoch': 0.23}
+The following columns in the evaluation set don't have a corresponding argument in `MPNetForSequenceClassification.forward` and have been ignored: idx, hypothesis, premise. If idx, hypothesis, premise are not expected by `MPNetForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 9815
+  Batch size = 4
+{'eval_loss': 0.8643542528152466, 'eval_accuracy': 0.6596026490066225, 'eval_runtime': 121.8204, 'eval_samples_per_second': 80.569, 'eval_steps_per_second': 20.144, 'epoch': 0.23}
+Saving model checkpoint to mpnet-base-finetuned-AdamW-mnli/checkpoint-22581
+Configuration saved in mpnet-base-finetuned-AdamW-mnli/checkpoint-22581/config.json
+Model weights saved in mpnet-base-finetuned-AdamW-mnli/checkpoint-22581/pytorch_model.bin
+tokenizer config file saved in mpnet-base-finetuned-AdamW-mnli/checkpoint-22581/tokenizer_config.json
+Special tokens file saved in mpnet-base-finetuned-AdamW-mnli/checkpoint-22581/special_tokens_map.json
+tokenizer config file saved in mpnet-base-finetuned-AdamW-mnli/tokenizer_config.json
+Special tokens file saved in mpnet-base-finetuned-AdamW-mnli/special_tokens_map.json
+{'train_runtime': 5486.3827, 'train_samples_per_second': 16.463, 'train_steps_per_second': 4.116, 'train_loss': 0.7734108131678648, 'epoch': 0.23}
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from mpnet-base-finetuned-AdamW-mnli/checkpoint-22581 (score: 0.6596026490066225).
+Saving model checkpoint to mpnet-base-finetuned-AdamW-mnli
+Configuration saved in mpnet-base-finetuned-AdamW-mnli/config.json
+Model weights saved in mpnet-base-finetuned-AdamW-mnli/pytorch_model.bin
+tokenizer config file saved in mpnet-base-finetuned-AdamW-mnli/tokenizer_config.json
+Special tokens file saved in mpnet-base-finetuned-AdamW-mnli/special_tokens_map.json
+Several commits (2) will be pushed upstream.
+The progress bars may be unreliable.
+remote: Scanning LFS files for validity...
+remote: LFS file scan complete.
+To https://huggingface.co/NicolasLe/mpnet-base-finetuned-AdamW-mnli
+   68284f7..313c266  main -> main
+cuda
+Found cached dataset glue (/home/nico/.cache/huggingface/datasets/glue/mnli/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad)
+{'accuracy': 0.5625}
+Could not locate the tokenizer configuration file, will try to use the model config instead.
+loading configuration file config.json from cache at /home/nico/.cache/huggingface/hub/models--microsoft--mpnet-base/snapshots/5b7474c98ab5f1801502f9d2348485acf4cbbe71/config.json
+Model config MPNetConfig {
+  "_name_or_path": "microsoft/mpnet-base",
+  "architectures": [
+    "MPNetForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "mpnet",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 1,
+  "relative_attention_num_buckets": 32,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30527
+}
+loading file vocab.txt from cache at /home/nico/.cache/huggingface/hub/models--microsoft--mpnet-base/snapshots/5b7474c98ab5f1801502f9d2348485acf4cbbe71/vocab.txt
+loading file tokenizer.json from cache at /home/nico/.cache/huggingface/hub/models--microsoft--mpnet-base/snapshots/5b7474c98ab5f1801502f9d2348485acf4cbbe71/tokenizer.json
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at None
+loading configuration file config.json from cache at /home/nico/.cache/huggingface/hub/models--microsoft--mpnet-base/snapshots/5b7474c98ab5f1801502f9d2348485acf4cbbe71/config.json
+Model config MPNetConfig {
+  "_name_or_path": "microsoft/mpnet-base",
+  "architectures": [
+    "MPNetForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "mpnet",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 1,
+  "relative_attention_num_buckets": 32,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30527
+}
+Sentence 1: Conceptually cream skimming has two basic dimensions - product and geography.
+Sentence 2: Product and geography are what make cream skimming work.
+Loading cached processed dataset at /home/nico/.cache/huggingface/datasets/glue/mnli/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad/cache-e918085800bdaf35.arrow
+Loading cached processed dataset at /home/nico/.cache/huggingface/datasets/glue/mnli/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad/cache-19eaff48a7946f26.arrow
+Loading cached processed dataset at /home/nico/.cache/huggingface/datasets/glue/mnli/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad/cache-fbc8360796e1193d.arrow
+Loading cached processed dataset at /home/nico/.cache/huggingface/datasets/glue/mnli/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad/cache-d767475232a1637b.arrow
+Loading cached processed dataset at /home/nico/.cache/huggingface/datasets/glue/mnli/1.0.0/dacbe3125aa31d7f70367a07a8a9e72a5a0bfeb5fc42e75c9db75b96da6053ad/cache-61b7eb49a8b6e726.arrow
+loading configuration file config.json from cache at /home/nico/.cache/huggingface/hub/models--microsoft--mpnet-base/snapshots/5b7474c98ab5f1801502f9d2348485acf4cbbe71/config.json
+Model config MPNetConfig {
+  "_name_or_path": "microsoft/mpnet-base",
+  "architectures": [
+    "MPNetForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": 0,
+  "eos_token_id": 2,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_2": 2
+  },
+  "layer_norm_eps": 1e-05,
+  "max_position_embeddings": 514,
+  "model_type": "mpnet",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 1,
+  "relative_attention_num_buckets": 32,
+  "transformers_version": "4.26.1",
+  "vocab_size": 30527
+}
+loading weights file pytorch_model.bin from cache at /home/nico/.cache/huggingface/hub/models--microsoft--mpnet-base/snapshots/5b7474c98ab5f1801502f9d2348485acf4cbbe71/pytorch_model.bin
+15.0 392702 0.15
+Some weights of the model checkpoint at microsoft/mpnet-base were not used when initializing MPNetForSequenceClassification: ['lm_head.layer_norm.weight', 'lm_head.decoder.bias', 'lm_head.layer_norm.bias', 'lm_head.decoder.weight', 'lm_head.dense.weight', 'lm_head.dense.bias', 'lm_head.bias']
+- This IS expected if you are initializing MPNetForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing MPNetForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of MPNetForSequenceClassification were not initialized from the model checkpoint at microsoft/mpnet-base and are newly initialized: ['classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.dense.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+PyTorch: setting up devices
+/home/nico/Documents/IAS2/IAssistant/AI-base/mpnet-base-finetuned-AdamW-mnli is already a clone of https://huggingface.co/NicolasLe/mpnet-base-finetuned-AdamW-mnli. Make sure you pull the latest changes with `repo.git_pull()`.
+The following columns in the training set don't have a corresponding argument in `MPNetForSequenceClassification.forward` and have been ignored: idx, hypothesis, premise. If idx, hypothesis, premise are not expected by `MPNetForSequenceClassification.forward`,  you can safely ignore this message.
+/home/nico/.local/lib/python3.10/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 392702
+  Num Epochs = 1
+  Instantaneous batch size per device = 4
+  Total train batch size (w. parallel, distributed & accumulation) = 4
+  Gradient Accumulation steps = 1
+  Total optimization steps = 14727
+  Number of trainable parameters = 109488771
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"

@@ -1,0 +1,124 @@
+{
+    "os": "Linux-5.15.0-58-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-02-27T18:27:27.922532",
+    "startedAt": "2023-02-27T18:27:26.573163",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "IAssistant/AI-base/trainingagainmicrosoft-jvsc-2aa995f3-a0f0-47bb-9f5e-cb4c213a6eff24b13cff-c996-4c8a-b655-dbb06161395e.ipynb",
+    "root": "/home/nico/Documents/IAS2/IAssistant",
+    "git": {
+        "remote": "git@github.com:NLeboucher/IAssistant.git",
+        "commit": "fd6f086f759ee2c7d61c316038bbab1a3497a9b5"
+    },
+    "email": "nicolas.leboucher01@gmail.com",
+    "host": "nicoub",
+    "username": "nico",
+    "executable": "/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2.3953124999999997,
+        "min": 1400.0,
+        "max": 3000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4.207,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2.199,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2.496,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1.4,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1.4,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2.302,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.148,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2.264,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2.125,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2.262,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 3.0,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1.4,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1.4,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 1.7,
+            "min": 1400.0,
+            "max": 3000.0
+        },
+        {
+            "current": 2.004,
+            "min": 1400.0,
+            "max": 3000.0
+        }
+    ],
+    "disk": {
+        "total": 276.1340675354004,
+        "used": 207.28093338012695
+    },
+    "gpu": "NVIDIA GeForce RTX 2060 with Max-Q Design",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060 with Max-Q Design",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.050827026367188
+    }
+}

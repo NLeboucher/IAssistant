@@ -1,0 +1,56 @@
+
+You're using a MPNetTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+{'loss': 1.0986, 'learning_rate': 2.2748416099088027e-06, 'epoch': 0.01}
+{'loss': 1.0799, 'learning_rate': 4.549683219817605e-06, 'epoch': 0.01}
+{'loss': 0.9673, 'learning_rate': 6.824524829726408e-06, 'epoch': 0.02}
+{'loss': 0.7856, 'learning_rate': 9.09936643963521e-06, 'epoch': 0.02}
+{'loss': 0.725, 'learning_rate': 1.1374208049544013e-05, 'epoch': 0.03}
+{'loss': 0.6983, 'learning_rate': 1.3649049659452815e-05, 'epoch': 0.03}
+{'loss': 0.7106, 'learning_rate': 1.592389126936162e-05, 'epoch': 0.04}
+{'loss': 0.6945, 'learning_rate': 1.819873287927042e-05, 'epoch': 0.04}
+{'loss': 0.7004, 'learning_rate': 2.0473574489179225e-05, 'epoch': 0.05}
+{'loss': 0.7329, 'learning_rate': 2.2748416099088026e-05, 'epoch': 0.05}
+{'loss': 0.7256, 'learning_rate': 2.502325770899683e-05, 'epoch': 0.06}
+{'loss': 0.7555, 'learning_rate': 2.729809931890563e-05, 'epoch': 0.06}
+{'loss': 0.7216, 'learning_rate': 2.9572940928814434e-05, 'epoch': 0.07}
+{'loss': 0.7402, 'learning_rate': 3.184778253872324e-05, 'epoch': 0.07}
+{'loss': 0.7342, 'learning_rate': 3.412262414863204e-05, 'epoch': 0.08}
+{'loss': 0.7765, 'learning_rate': 3.639746575854084e-05, 'epoch': 0.08}
+{'loss': 0.7072, 'learning_rate': 3.867230736844965e-05, 'epoch': 0.09}
+{'loss': 0.7797, 'learning_rate': 4.094714897835845e-05, 'epoch': 0.09}
+{'loss': 0.7435, 'learning_rate': 4.3221990588267255e-05, 'epoch': 0.1}
+{'loss': 0.7514, 'learning_rate': 4.549683219817605e-05, 'epoch': 0.1}
+{'loss': 0.781, 'learning_rate': 4.777167380808486e-05, 'epoch': 0.11}
+{'loss': 0.7977, 'learning_rate': 5.004651541799366e-05, 'epoch': 0.11}
+{'loss': 0.7787, 'learning_rate': 5.2321357027902464e-05, 'epoch': 0.12}
+{'loss': 0.7491, 'learning_rate': 5.459619863781126e-05, 'epoch': 0.12}
+{'loss': 0.8316, 'learning_rate': 5.6871040247720065e-05, 'epoch': 0.13}
+{'loss': 0.7984, 'learning_rate': 5.914588185762887e-05, 'epoch': 0.13}
+{'loss': 0.8182, 'learning_rate': 6.142072346753767e-05, 'epoch': 0.14}
+{'loss': 0.8402, 'learning_rate': 6.369556507744648e-05, 'epoch': 0.14}
+{'loss': 0.843, 'learning_rate': 6.597040668735528e-05, 'epoch': 0.15}
+The following columns in the evaluation set don't have a corresponding argument in `MPNetForSequenceClassification.forward` and have been ignored: premise, idx, hypothesis. If premise, idx, hypothesis are not expected by `MPNetForSequenceClassification.forward`,  you can safely ignore this message.
+***** Running Evaluation *****
+  Num examples = 9815
+  Batch size = 4
+Saving model checkpoint to mpnet-base-finetuned-AdamW-mnli/checkpoint-14727
+Configuration saved in mpnet-base-finetuned-AdamW-mnli/checkpoint-14727/config.json
+Model weights saved in mpnet-base-finetuned-AdamW-mnli/checkpoint-14727/pytorch_model.bin
+tokenizer config file saved in mpnet-base-finetuned-AdamW-mnli/checkpoint-14727/tokenizer_config.json
+Special tokens file saved in mpnet-base-finetuned-AdamW-mnli/checkpoint-14727/special_tokens_map.json
+{'eval_loss': 0.8321041464805603, 'eval_accuracy': 0.6818135506877229, 'eval_runtime': 123.1853, 'eval_samples_per_second': 79.677, 'eval_steps_per_second': 19.921, 'epoch': 0.15}
+tokenizer config file saved in mpnet-base-finetuned-AdamW-mnli/tokenizer_config.json
+Special tokens file saved in mpnet-base-finetuned-AdamW-mnli/special_tokens_map.json
+Training completed. Do not forget to share your model on huggingface.co/models =)
+Loading best model from mpnet-base-finetuned-AdamW-mnli/checkpoint-14727 (score: 0.6818135506877229).
+Saving model checkpoint to mpnet-base-finetuned-AdamW-mnli
+Configuration saved in mpnet-base-finetuned-AdamW-mnli/config.json
+{'train_runtime': 5957.6526, 'train_samples_per_second': 9.887, 'train_steps_per_second': 2.472, 'train_loss': 0.7898783525446327, 'epoch': 0.15}
+Model weights saved in mpnet-base-finetuned-AdamW-mnli/pytorch_model.bin
+tokenizer config file saved in mpnet-base-finetuned-AdamW-mnli/tokenizer_config.json
+Special tokens file saved in mpnet-base-finetuned-AdamW-mnli/special_tokens_map.json
+Several commits (2) will be pushed upstream.
+The progress bars may be unreliable.
+remote: Scanning LFS files for validity...
+remote: LFS file scan complete.
+To https://huggingface.co/NicolasLe/mpnet-base-finetuned-AdamW-mnli

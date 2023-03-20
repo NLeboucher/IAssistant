@@ -1,0 +1,294 @@
+2023-02-27 09:42:14,283 INFO    StreamThr :100172 [internal.py:wandb_internal():87] W&B internal server running at pid: 100172, started at: 2023-02-27 09:42:14.282796
+2023-02-27 09:42:14,285 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status
+2023-02-27 09:42:14,293 INFO    WriterThread:100172 [datastore.py:open_for_write():85] open: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/run-ejgycuhf.wandb
+2023-02-27 09:42:14,293 DEBUG   SenderThread:100172 [sender.py:send():336] send: header
+2023-02-27 09:42:14,301 DEBUG   SenderThread:100172 [sender.py:send():336] send: run
+2023-02-27 09:42:15,403 INFO    SenderThread:100172 [dir_watcher.py:__init__():216] watching files in: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files
+2023-02-27 09:42:15,403 INFO    SenderThread:100172 [sender.py:_start_run_threads():1067] run started: ejgycuhf with start time 1677487334.282417
+2023-02-27 09:42:15,403 DEBUG   SenderThread:100172 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 09:42:15,403 INFO    SenderThread:100172 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 09:42:15,404 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: check_version
+2023-02-27 09:42:15,404 DEBUG   SenderThread:100172 [sender.py:send_request():363] send_request: check_version
+2023-02-27 09:42:15,803 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: run_start
+2023-02-27 09:42:15,809 DEBUG   HandlerThread:100172 [system_info.py:__init__():31] System info init
+2023-02-27 09:42:15,809 DEBUG   HandlerThread:100172 [system_info.py:__init__():46] System info init done
+2023-02-27 09:42:15,809 INFO    HandlerThread:100172 [system_monitor.py:start():151] Starting system monitor
+2023-02-27 09:42:15,809 INFO    SystemMonitor:100172 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-27 09:42:15,809 INFO    HandlerThread:100172 [system_monitor.py:probe():172] Collecting system info
+2023-02-27 09:42:15,810 INFO    SystemMonitor:100172 [interfaces.py:start():168] Started cpu
+2023-02-27 09:42:15,810 INFO    SystemMonitor:100172 [interfaces.py:start():168] Started disk
+2023-02-27 09:42:15,812 INFO    SystemMonitor:100172 [interfaces.py:start():168] Started gpu
+2023-02-27 09:42:15,812 INFO    SystemMonitor:100172 [interfaces.py:start():168] Started memory
+2023-02-27 09:42:15,812 INFO    SystemMonitor:100172 [interfaces.py:start():168] Started network
+2023-02-27 09:42:15,857 DEBUG   HandlerThread:100172 [system_info.py:probe():195] Probing system
+2023-02-27 09:42:15,859 DEBUG   HandlerThread:100172 [system_info.py:_probe_git():180] Probing git
+2023-02-27 09:42:15,868 DEBUG   HandlerThread:100172 [system_info.py:_probe_git():188] Probing git done
+2023-02-27 09:42:15,868 DEBUG   HandlerThread:100172 [system_info.py:probe():241] Probing system done
+2023-02-27 09:42:15,868 DEBUG   HandlerThread:100172 [system_monitor.py:probe():181] {'os': 'Linux-5.15.0-58-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-02-27T08:42:15.857372', 'startedAt': '2023-02-27T08:42:14.272467', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'IAssistant/AI-base/trainingagainmicrosoft-jvsc-737180ea-7a3d-440e-a123-684c83e634237124eaf4-6bc8-4fc6-8ef3-806950afe930.ipynb', 'root': '/home/nico/Documents/IAS2/IAssistant', 'git': {'remote': 'git@github.com:NLeboucher/IAssistant.git', 'commit': 'fd6f086f759ee2c7d61c316038bbab1a3497a9b5'}, 'email': 'nicolas.leboucher01@gmail.com', 'host': 'nicoub', 'username': 'nico', 'executable': '/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2.6534999999999997, 'min': 1400.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.847, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 4.01, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}], 'disk': {'total': 276.1340675354004, 'used': 205.88947677612305}, 'gpu': 'NVIDIA GeForce RTX 2060 with Max-Q Design', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060 with Max-Q Design', 'memory_total': 6442450944}], 'memory': {'total': 15.050827026367188}}
+2023-02-27 09:42:15,869 INFO    HandlerThread:100172 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-27 09:42:15,869 INFO    HandlerThread:100172 [system_monitor.py:probe():185] Publishing system info
+2023-02-27 09:42:15,869 DEBUG   HandlerThread:100172 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-02-27 09:42:15,869 DEBUG   HandlerThread:100172 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-27 09:42:15,875 INFO    HandlerThread:100172 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-27 09:42:15,876 DEBUG   SenderThread:100172 [sender.py:send():336] send: files
+2023-02-27 09:42:15,877 INFO    SenderThread:100172 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-27 09:42:15,887 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-27 09:42:15,887 DEBUG   SenderThread:100172 [sender.py:send_request():363] send_request: stop_status
+2023-02-27 09:42:16,405 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/wandb-metadata.json
+2023-02-27 09:42:16,405 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/wandb-summary.json
+2023-02-27 09:42:16,405 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/requirements.txt
+2023-02-27 09:42:16,452 DEBUG   SenderThread:100172 [sender.py:send():336] send: telemetry
+2023-02-27 09:42:16,452 DEBUG   SenderThread:100172 [sender.py:send():336] send: config
+2023-02-27 09:42:16,453 DEBUG   SenderThread:100172 [sender.py:send():336] send: metric
+2023-02-27 09:42:16,453 DEBUG   SenderThread:100172 [sender.py:send():336] send: telemetry
+2023-02-27 09:42:16,453 DEBUG   SenderThread:100172 [sender.py:send():336] send: metric
+2023-02-27 09:42:16,453 WARNING SenderThread:100172 [sender.py:send_metric():1272] Seen metric with glob (shouldn't happen)
+2023-02-27 09:42:17,033 INFO    wandb-upload_0:100172 [upload_job.py:push():138] Uploaded file /tmp/tmpdu_6sdqcwandb/edug4wqe-wandb-metadata.json
+2023-02-27 09:42:17,403 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/output.log
+2023-02-27 09:42:19,404 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/output.log
+2023-02-27 09:42:19,455 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:42:24,455 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:42:29,456 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:42:30,887 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:42:34,458 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:42:35,888 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:42:39,458 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:42:40,888 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:42:44,464 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:42:45,412 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/config.yaml
+2023-02-27 09:42:45,889 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:42:50,042 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:42:50,890 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:42:55,042 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:42:55,891 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:00,043 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:43:00,892 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:05,044 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:43:05,892 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:10,045 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:43:10,893 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:15,046 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:43:15,813 DEBUG   SystemMonitor:100172 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-27 09:43:15,813 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:43:15,894 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:20,819 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:43:20,895 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:25,820 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:43:25,896 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:30,820 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:43:30,897 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:35,821 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:43:35,897 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:40,822 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:43:40,898 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:45,814 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:43:45,899 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:46,815 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:43:50,901 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:51,816 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:43:55,901 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:43:56,817 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:44:00,902 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:44:01,818 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:44:05,903 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:44:06,818 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:44:10,904 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:44:11,819 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:44:15,814 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:44:15,905 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:44:17,477 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-27 09:44:17,479 DEBUG   SenderThread:100172 [sender.py:send():336] send: metric
+2023-02-27 09:44:17,484 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:44:18,093 DEBUG   SenderThread:100172 [sender.py:send():336] send: metric
+2023-02-27 09:44:18,094 DEBUG   SenderThread:100172 [sender.py:send():336] send: metric
+2023-02-27 09:44:18,094 DEBUG   SenderThread:100172 [sender.py:send():336] send: history
+2023-02-27 09:44:18,094 DEBUG   SenderThread:100172 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 09:44:18,095 INFO    SenderThread:100172 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 09:44:18,444 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/config.yaml
+2023-02-27 09:44:18,445 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/wandb-summary.json
+2023-02-27 09:44:20,445 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/output.log
+2023-02-27 09:44:20,906 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:44:23,096 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:44:25,907 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:44:28,097 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:44:30,908 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:44:33,099 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:44:35,909 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:44:38,100 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:44:40,909 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:44:43,101 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:44:45,815 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:44:45,910 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:44:48,821 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:44:49,454 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/config.yaml
+2023-02-27 09:44:50,913 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:44:54,450 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:44:55,915 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:44:59,451 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:45:00,916 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:45:04,453 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:45:05,917 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:45:09,454 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:45:10,918 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:45:14,454 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:45:15,815 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:45:15,919 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:45:19,816 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:45:20,923 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:45:24,817 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:45:25,925 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:45:29,818 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:45:30,925 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:45:34,819 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:45:35,926 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:45:39,820 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:45:40,927 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:45:44,821 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:45:45,816 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:45:45,928 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:45:50,817 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:45:50,929 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:45:55,819 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:45:55,930 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:00,820 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:46:00,931 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:05,821 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:46:05,932 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:10,822 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:46:10,933 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:15,817 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:46:15,934 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:16,818 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:46:18,938 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-27 09:46:18,939 DEBUG   SenderThread:100172 [sender.py:send():336] send: history
+2023-02-27 09:46:18,940 DEBUG   SenderThread:100172 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 09:46:18,940 INFO    SenderThread:100172 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 09:46:19,484 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/wandb-summary.json
+2023-02-27 09:46:20,485 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/output.log
+2023-02-27 09:46:20,935 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:21,941 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:46:25,937 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:26,942 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:46:30,937 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:31,943 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:46:35,938 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:36,944 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:46:40,939 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:41,945 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:46:45,818 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:46:45,940 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:47,819 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:46:50,942 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:52,820 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:46:55,943 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:46:57,820 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:47:00,944 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:47:02,821 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:47:05,945 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:47:07,822 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:47:10,946 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:47:12,823 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:47:15,818 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:47:15,947 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:47:18,819 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:47:20,948 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:47:23,820 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:47:25,949 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:47:28,820 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:47:30,950 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:47:33,821 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:47:35,950 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:47:38,822 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:47:40,954 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:47:43,823 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:47:45,819 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:47:45,955 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:47:49,820 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:47:50,956 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:47:54,821 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:47:55,957 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:47:59,822 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:48:00,957 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:48:04,823 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:48:05,958 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:48:09,824 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:48:10,959 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:48:14,825 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:48:15,820 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:48:15,961 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:48:18,927 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: partial_history
+2023-02-27 09:48:18,928 DEBUG   SenderThread:100172 [sender.py:send():336] send: history
+2023-02-27 09:48:18,928 DEBUG   SenderThread:100172 [sender.py:send_request():363] send_request: summary_record
+2023-02-27 09:48:18,929 INFO    SenderThread:100172 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-27 09:48:19,525 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/wandb-summary.json
+2023-02-27 09:48:19,929 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:48:20,525 INFO    Thread-13 :100172 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230227_094214-ejgycuhf/files/output.log
+2023-02-27 09:48:20,961 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:48:24,930 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:48:25,962 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:48:29,931 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:48:30,963 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:48:34,932 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:48:35,964 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:48:39,933 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:48:40,965 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:48:44,933 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:48:45,821 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:48:45,967 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:48:50,822 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:48:50,967 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:48:55,823 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:48:55,970 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:00,824 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:49:00,971 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:05,824 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:49:05,972 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:10,825 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:49:10,973 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:15,821 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:49:15,973 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:16,822 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:49:20,975 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:21,823 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:49:25,976 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:26,823 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:49:30,977 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:31,824 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:49:35,981 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:36,825 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:49:40,982 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:41,826 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:49:45,822 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:49:45,988 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:47,822 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:49:50,989 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:52,823 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:49:55,990 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:49:57,824 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:50:00,991 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:50:02,825 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:50:05,992 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:50:07,826 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:50:10,993 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:50:12,826 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:50:14,903 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: pause
+2023-02-27 09:50:14,903 INFO    HandlerThread:100172 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-02-27 09:50:14,903 INFO    HandlerThread:100172 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-27 09:50:14,903 DEBUG   SystemMonitor:100172 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-27 09:50:14,904 DEBUG   SystemMonitor:100172 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-27 09:50:14,905 INFO    HandlerThread:100172 [interfaces.py:finish():175] Joined cpu
+2023-02-27 09:50:14,905 INFO    HandlerThread:100172 [interfaces.py:finish():175] Joined disk
+2023-02-27 09:50:14,958 INFO    HandlerThread:100172 [interfaces.py:finish():175] Joined gpu
+2023-02-27 09:50:14,958 INFO    HandlerThread:100172 [interfaces.py:finish():175] Joined memory
+2023-02-27 09:50:14,958 INFO    HandlerThread:100172 [interfaces.py:finish():175] Joined network
+2023-02-27 09:50:14,958 DEBUG   SenderThread:100172 [sender.py:send():336] send: stats
+2023-02-27 09:50:15,993 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:50:17,959 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:50:20,994 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:50:22,960 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:50:26,000 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:50:27,961 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:50:31,001 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-27 09:50:32,962 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:50:37,962 DEBUG   HandlerThread:100172 [handler.py:handle_request():144] handle_request: status_report
+2023-02-27 09:50:38,911 INFO    MainThread:100172 [internal.py:handle_exit():77] Internal process exited

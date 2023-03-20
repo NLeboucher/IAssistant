@@ -1,0 +1,260 @@
+2023-03-01 03:42:30,683 INFO    StreamThr :104204 [internal.py:wandb_internal():87] W&B internal server running at pid: 104204, started at: 2023-03-01 03:42:30.682545
+2023-03-01 03:42:30,685 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status
+2023-03-01 03:42:30,691 INFO    WriterThread:104204 [datastore.py:open_for_write():85] open: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230301_034230-v4581kln/run-v4581kln.wandb
+2023-03-01 03:42:30,692 DEBUG   SenderThread:104204 [sender.py:send():336] send: header
+2023-03-01 03:42:30,696 DEBUG   SenderThread:104204 [sender.py:send():336] send: run
+2023-03-01 03:42:31,551 INFO    SenderThread:104204 [dir_watcher.py:__init__():216] watching files in: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230301_034230-v4581kln/files
+2023-03-01 03:42:31,551 INFO    SenderThread:104204 [sender.py:_start_run_threads():1067] run started: v4581kln with start time 1677638550.681763
+2023-03-01 03:42:31,552 DEBUG   SenderThread:104204 [sender.py:send_request():363] send_request: summary_record
+2023-03-01 03:42:31,552 INFO    SenderThread:104204 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-01 03:42:31,553 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: check_version
+2023-03-01 03:42:31,553 DEBUG   SenderThread:104204 [sender.py:send_request():363] send_request: check_version
+2023-03-01 03:42:31,927 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: run_start
+2023-03-01 03:42:31,931 DEBUG   HandlerThread:104204 [system_info.py:__init__():31] System info init
+2023-03-01 03:42:31,931 DEBUG   HandlerThread:104204 [system_info.py:__init__():46] System info init done
+2023-03-01 03:42:31,931 INFO    HandlerThread:104204 [system_monitor.py:start():151] Starting system monitor
+2023-03-01 03:42:31,931 INFO    SystemMonitor:104204 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-01 03:42:31,931 INFO    HandlerThread:104204 [system_monitor.py:probe():172] Collecting system info
+2023-03-01 03:42:31,932 INFO    SystemMonitor:104204 [interfaces.py:start():168] Started cpu
+2023-03-01 03:42:31,933 INFO    SystemMonitor:104204 [interfaces.py:start():168] Started disk
+2023-03-01 03:42:31,933 INFO    SystemMonitor:104204 [interfaces.py:start():168] Started gpu
+2023-03-01 03:42:31,934 INFO    SystemMonitor:104204 [interfaces.py:start():168] Started memory
+2023-03-01 03:42:31,934 INFO    SystemMonitor:104204 [interfaces.py:start():168] Started network
+2023-03-01 03:42:31,980 DEBUG   HandlerThread:104204 [system_info.py:probe():195] Probing system
+2023-03-01 03:42:31,982 DEBUG   HandlerThread:104204 [system_info.py:_probe_git():180] Probing git
+2023-03-01 03:42:31,987 DEBUG   HandlerThread:104204 [system_info.py:_probe_git():188] Probing git done
+2023-03-01 03:42:31,987 DEBUG   HandlerThread:104204 [system_info.py:probe():241] Probing system done
+2023-03-01 03:42:31,987 DEBUG   HandlerThread:104204 [system_monitor.py:probe():181] {'os': 'Linux-5.15.0-58-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-03-01T02:42:31.980279', 'startedAt': '2023-03-01T02:42:30.674169', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'IAssistant/AI-base/trainingagainmicrosoft-jvsc-a77495e6-69fd-4057-bb7d-5bf3b8ba12cb82c9ab81-41f7-4e41-8421-47a429eb43bb.ipynb', 'root': '/home/nico/Documents/IAS2/IAssistant', 'git': {'remote': 'git@github.com:NLeboucher/IAssistant.git', 'commit': 'fd6f086f759ee2c7d61c316038bbab1a3497a9b5'}, 'email': 'nicolas.leboucher01@gmail.com', 'host': 'nicoub', 'username': 'nico', 'executable': '/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 1.9277499999999994, 'min': 1400.0, 'max': 3000.0}, 'cpu_freq_per_core': [{'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 2.796, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 2.987, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 3.0, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.4, 'min': 1400.0, 'max': 3000.0}, {'current': 1.723, 'min': 1400.0, 'max': 3000.0}], 'disk': {'total': 276.1340675354004, 'used': 199.09366989135742}, 'gpu': 'NVIDIA GeForce RTX 2060 with Max-Q Design', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060 with Max-Q Design', 'memory_total': 6442450944}], 'memory': {'total': 15.050827026367188}}
+2023-03-01 03:42:31,987 INFO    HandlerThread:104204 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-01 03:42:31,987 INFO    HandlerThread:104204 [system_monitor.py:probe():185] Publishing system info
+2023-03-01 03:42:31,987 DEBUG   HandlerThread:104204 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-01 03:42:31,987 DEBUG   HandlerThread:104204 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-01 03:42:31,987 INFO    HandlerThread:104204 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-01 03:42:31,989 DEBUG   SenderThread:104204 [sender.py:send():336] send: files
+2023-03-01 03:42:31,989 INFO    SenderThread:104204 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-01 03:42:32,003 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-01 03:42:32,003 DEBUG   SenderThread:104204 [sender.py:send_request():363] send_request: stop_status
+2023-03-01 03:42:32,487 DEBUG   SenderThread:104204 [sender.py:send():336] send: telemetry
+2023-03-01 03:42:32,487 DEBUG   SenderThread:104204 [sender.py:send():336] send: config
+2023-03-01 03:42:32,488 DEBUG   SenderThread:104204 [sender.py:send():336] send: metric
+2023-03-01 03:42:32,488 DEBUG   SenderThread:104204 [sender.py:send():336] send: telemetry
+2023-03-01 03:42:32,488 DEBUG   SenderThread:104204 [sender.py:send():336] send: metric
+2023-03-01 03:42:32,488 WARNING SenderThread:104204 [sender.py:send_metric():1272] Seen metric with glob (shouldn't happen)
+2023-03-01 03:42:32,554 INFO    Thread-13 :104204 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230301_034230-v4581kln/files/wandb-metadata.json
+2023-03-01 03:42:32,554 INFO    Thread-13 :104204 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230301_034230-v4581kln/files/output.log
+2023-03-01 03:42:32,554 INFO    Thread-13 :104204 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230301_034230-v4581kln/files/wandb-summary.json
+2023-03-01 03:42:32,554 INFO    Thread-13 :104204 [dir_watcher.py:_on_file_created():275] file/dir created: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230301_034230-v4581kln/files/requirements.txt
+2023-03-01 03:42:33,148 INFO    wandb-upload_0:104204 [upload_job.py:push():138] Uploaded file /tmp/tmpzzvqpyd5wandb/x8d4speq-wandb-metadata.json
+2023-03-01 03:42:34,552 INFO    Thread-13 :104204 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230301_034230-v4581kln/files/output.log
+2023-03-01 03:42:36,490 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:42:41,490 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:42:46,491 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:42:47,002 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:42:51,491 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:42:52,003 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:42:56,492 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:42:57,004 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:01,498 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:43:02,009 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:02,561 INFO    Thread-13 :104204 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230301_034230-v4581kln/files/config.yaml
+2023-03-01 03:43:07,008 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:07,010 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:43:12,011 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:43:12,011 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:17,012 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:43:17,014 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:22,012 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:43:22,015 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:27,013 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:43:27,016 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:31,935 DEBUG   SystemMonitor:104204 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-01 03:43:31,936 DEBUG   SenderThread:104204 [sender.py:send():336] send: stats
+2023-03-01 03:43:32,017 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:32,936 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:43:37,018 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:37,937 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:43:42,018 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:42,938 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:43:47,019 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:47,939 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:43:52,020 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:52,940 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:43:57,021 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:43:57,940 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:44:01,936 DEBUG   SenderThread:104204 [sender.py:send():336] send: stats
+2023-03-01 03:44:02,023 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:44:03,937 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:44:07,024 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:44:08,938 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:44:12,026 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:44:13,939 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:44:17,027 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:44:18,940 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:44:22,028 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:44:23,941 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:44:27,028 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:44:28,942 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:44:31,474 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-01 03:44:31,476 DEBUG   SenderThread:104204 [sender.py:send():336] send: metric
+2023-03-01 03:44:31,476 DEBUG   SenderThread:104204 [sender.py:send():336] send: metric
+2023-03-01 03:44:31,476 DEBUG   SenderThread:104204 [sender.py:send():336] send: metric
+2023-03-01 03:44:31,476 DEBUG   SenderThread:104204 [sender.py:send():336] send: history
+2023-03-01 03:44:31,476 DEBUG   SenderThread:104204 [sender.py:send_request():363] send_request: summary_record
+2023-03-01 03:44:31,479 INFO    SenderThread:104204 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-01 03:44:31,591 INFO    Thread-13 :104204 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230301_034230-v4581kln/files/wandb-summary.json
+2023-03-01 03:44:31,943 DEBUG   SenderThread:104204 [sender.py:send():336] send: stats
+2023-03-01 03:44:32,029 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:44:33,591 INFO    Thread-13 :104204 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230301_034230-v4581kln/files/output.log
+2023-03-01 03:44:33,950 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:44:34,592 INFO    Thread-13 :104204 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/nico/Documents/IAS2/IAssistant/AI-base/wandb/run-20230301_034230-v4581kln/files/config.yaml
+2023-03-01 03:44:37,030 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:44:39,451 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:44:42,031 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:44:44,452 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:44:47,032 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:44:49,453 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:44:52,034 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:44:54,454 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:44:57,036 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:44:59,455 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:45:01,938 DEBUG   SenderThread:104204 [sender.py:send():336] send: stats
+2023-03-01 03:45:02,037 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:45:04,939 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:45:07,037 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:45:09,939 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:45:12,038 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:45:14,940 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:45:17,039 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:45:19,941 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:45:22,040 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:45:24,941 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:45:27,048 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:45:29,943 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:45:31,938 DEBUG   SenderThread:104204 [sender.py:send():336] send: stats
+2023-03-01 03:45:32,051 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:45:35,940 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:45:37,052 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:45:40,941 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:45:42,056 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:45:45,941 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:45:47,057 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:45:50,942 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:45:52,059 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:45:55,943 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:45:57,063 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:46:00,944 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:46:01,940 DEBUG   SenderThread:104204 [sender.py:send():336] send: stats
+2023-03-01 03:46:02,071 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:46:06,947 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:46:07,072 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:46:11,948 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:46:12,072 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:46:16,948 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:46:17,073 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:46:21,949 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:46:22,074 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:46:26,950 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:46:27,075 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:46:32,424 DEBUG   SenderThread:104204 [sender.py:send():336] send: stats
+2023-03-01 03:46:35,418 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:46:37,425 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:46:40,419 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:46:42,426 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:46:45,419 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:46:47,426 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:46:50,420 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:46:52,427 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:46:54,451 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:46:54,451 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:46:55,421 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:46:56,451 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:46:56,451 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:46:57,428 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:46:58,452 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:46:58,452 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:00,421 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:00,452 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:00,452 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:02,424 DEBUG   SenderThread:104204 [sender.py:send():336] send: stats
+2023-03-01 03:47:02,453 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:02,453 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:03,425 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:47:04,453 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:04,454 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:06,144 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:06,153 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:06,454 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:06,454 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:08,455 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:08,455 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:09,154 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:47:10,456 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:10,456 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:11,146 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:12,456 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:12,456 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:14,155 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:47:14,457 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:14,457 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:16,147 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:16,458 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:16,458 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:18,458 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:18,459 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:19,156 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:47:20,459 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:20,459 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:21,148 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:22,460 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:22,460 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:24,157 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:47:24,523 ERROR   gpu       :104204 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-03-01 03:47:24,524 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:24,524 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:26,149 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:26,524 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:26,525 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:28,525 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:28,525 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:29,158 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:47:30,526 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:30,526 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:31,150 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:32,425 DEBUG   SenderThread:104204 [sender.py:send():336] send: stats
+2023-03-01 03:47:32,526 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:32,527 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:34,427 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:47:34,527 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:34,527 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:36,151 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:36,528 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:36,528 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:38,529 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:38,529 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:39,428 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:47:40,529 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:40,529 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:41,153 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:42,530 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:42,530 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:44,429 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:47:44,531 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:44,531 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:46,154 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:46,531 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:46,532 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:48,532 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:48,532 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:49,430 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:47:50,533 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:50,533 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:51,155 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:52,534 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:52,534 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:54,431 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: status_report
+2023-03-01 03:47:54,591 ERROR   gpu       :104204 [interfaces.py:aggregate():146] Failed to serialize metric: division by zero
+2023-03-01 03:47:54,592 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:54,592 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:56,156 DEBUG   HandlerThread:104204 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-01 03:47:56,592 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error
+2023-03-01 03:47:56,593 ERROR   gpu       :104204 [interfaces.py:monitor():129] Failed to sample metric: Unknown Error

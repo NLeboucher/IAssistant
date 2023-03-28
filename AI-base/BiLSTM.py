@@ -73,7 +73,7 @@ class NLIBiLSTM(nn.Module):
         
         return prediction
     
-class MyBiLSTM(NLIBiLSTM):
+class MyBiLSTM(NLIBiLSTM):  
     SEED = 1234
     random.seed(SEED)
     np.random.seed(SEED)
@@ -139,6 +139,13 @@ class MyBiLSTM(NLIBiLSTM):
 
     def count_parameters(model):
         return sum(p.numel() for p in model.parameters() if p.requires_grad)
+    def categorical_accuracy(preds, y):
+        """
+        Returns accuracy per batch
+        """
+        max_preds = preds.argmax(dim = 1, keepdim = True) # get the index of the max probability
+        correct = max_preds.squeeze(1).eq(y)
+        return correct.sum() / torch.cuda.FloatTensor([y.shape[0]])
     def categorical_accuracy(preds, y):
         """
         Returns accuracy per batch
@@ -260,4 +267,3 @@ class MyBiLSTM(NLIBiLSTM):
         prediction = prediction.argmax(dim=-1).item()
         
         return label_field.vocab.itos[prediction]
-a=MyBiLSTM()

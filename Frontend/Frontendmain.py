@@ -1,9 +1,22 @@
 import streamlit as st
+
 import pandas as pd
-df = pd.DataFrame({
-  'first column': [1, 2, 3, 4],
-  'second column': [10, 20, 30, 45]
-})
+
+# importing the requests library
+import requests
+  
+# api-endpoint
+URL = "http://localhost/"
+  
+# location given here
+location = "delhi technological university"
+  
+# defining a params dict for the parameters to be sent to the API
+PARAMS = {'address':location}
+  
+# sending get request and saving the response as response object
+r = requests.get(url = URL, params = PARAMS)
+
 st.title("Model Tests:")
 st.title("  MPNet")
 aa=st.text_input("Premise for MPNet.")

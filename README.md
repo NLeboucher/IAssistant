@@ -1,5 +1,5 @@
 # IAssistant
-** text gros **
+**text gros**
 An assistant for the doppelmarsh DVIC Project
 
 There are 4 parts to this repo and an image to show how it works. Each are adapted from two models
